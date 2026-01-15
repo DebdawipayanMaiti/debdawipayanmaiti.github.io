@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debdawipayan Maiti | Biophysics Researcher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top, #1e3a8a, #020617 70%);
+      color: #f1f5f9;
+      line-height: 1.7;
+    }
+    header {
+      padding: 90px 10%;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 50px;
+      align-items: center;
+      min-height: 90vh;
+    }
+    h1 { font-size: 3.4rem; margin-bottom: 10px; }
+    h2 { color: #ffd166; font-weight: 500; margin-top: 0; }
+    a { color: #ffd166; text-decoration: none; }
+    .badge {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 18px;
+      border-radius: 20px;
+      background: rgba(255, 209, 102, 0.15);
+      color: #ffd166;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .hero-visual {
+      position: relative;
+    }
+    .hero-visual img.main {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+      animation: float 6s ease-in-out infinite;
+    }
+    .hero-visual img.logo {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      height: 70px;
+      background: rgba(255,255,255,0.95);
+      padding: 10px;
+      border-radius: 12px;
+    }
+    .hero-visual img.logo.ins {
+      right: 110px;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0px); }
+    }
+    section { padding: 90px 10%; }
+    .section-title {
+      font-size: 2.4rem;
+      margin-bottom: 35px;
+      border-left: 6px solid #ffd166;
+      padding-left: 18px;
+    }
+    .card {
+      background: linear-gradient(160deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      border-radius: 22px;
+      padding: 35px;
+      margin-bottom: 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      backdrop-filter: blur(6px);
+    }
+    .figure {
+      margin-top: 25px;
+    }
+    .figure img {
+      width: 100%;
+      border-radius: 14px;
+      margin-top: 10px;
+    }
+    .figure p {
+      font-size: 0.9rem;
+      color: #cbd5f5;
+    }
+    footer {
+      padding: 50px 10%;
+      background: #020617;
+      text-align: center;
+      color: #94a3b8;
+    }
+    @media (max-width: 900px) {
+      header { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Debdawipayan Maiti</h1>
+    <h2>Undergraduate Researcher in Biophysics</h2>
+    <p>
+      BS–MS student at IISER Kolkata with strong interests in the physics of living systems, spanning
+      bacterial biofilms, membrane mechanics, and quantitative microscopy. My work combines wet-lab
+      experimentation, image analysis, and theoretical modeling to understand how physical principles
+      govern cellular and multicellular behavior.
+    </p>
+    <span class="badge">DST–INSPIRE Fellow</span>
+  </div>
+
+  <div class="hero-visual">
+    <img class="main" src="images/hero.jpg" alt="Scientific microscopy visualization">
+    <img class="logo ins" src="images/inspire.png" alt="DST INSPIRE logo">
+    <img class="logo" src="images/iiser.png" alt="IISER Kolkata logo">
+  </div>
+</header>
+
+<section>
+  <h2 class="section-title">About Me</h2>
+  <div class="card">
+    <p>
+      I am a third-year BS–MS student in Biological Sciences at the Indian Institute of Science Education
+      and Research (IISER) Kolkata. My academic journey has gradually converged toward biophysics,
+      driven by a fascination with how collective biological phenomena emerge from simple physical
+      interactions at the cellular scale.
+    </p>
+    <p>
+      Through independent and guided research projects, I have explored bacterial biofilm formation,
+      cell membrane mechanics, and plant mechanosensing using a combination of microscopy,
+      computational analysis, and physical modeling. I aspire to pursue a PhD in interdisciplinary
+      biological physics, focusing on how mechanical forces and stochastic processes shape living
+      systems.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Research Experience</h2>
+
+  <div class="card">
+    <h3>Biofilm Dynamics & Single-Cell Motility</h3>
+    <p><strong>Independent Project | IISER Kolkata</strong></p>
+    <p>
+      This project investigated how individual bacterial motion influences collective biofilm growth
+      using Vibrio and Azotobacter monocultures and co-cultures, combining microscopy with
+      quantitative image analysis.
+    </p>
+    <div class="figure">
+      <p><strong>Conceptual illustration:</strong> From single-cell trajectories to collective biofilm expansion.</p>
+      <img src="images/biofilm.png" alt="Biofilm formation schematic">
+    </div>
+    <p><a href="research/biofilm-dynamics.html">→ Detailed project page</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Cell Membrane Biophysics & Fluctuation Analysis</h3>
+    <p><strong>Summer Research Intern 2025 | Cell Biophysics Lab, IISER Kolkata</strong></p>
+    <p>
+      Studied membrane mechanics using the Canham–Helfrich Hamiltonian, combining theoretical
+      modeling with phase-contrast and epifluorescence microscopy to analyze membrane fluctuations.
+    </p>
+    <div class="figure">
+      <img src="images/membrane.png" alt="Membrane biophysics schematic">
+    </div>
+    <p><a href="research/membrane-biophysics.html">→ Detailed project page</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Plant Mechanosensing & Movement Analysis</h3>
+    <p><strong>Course Project | IISER Kolkata</strong></p>
+    <p>
+      Investigated rapid leaf-closing dynamics in <em>Mimosa pudica</em> using time-lapse imaging and
+      quantitative kinematic analysis.
+    </p>
+    <div class="figure">
+      <img src="images/mimosa.png" alt="Mimosa pudica leaf movement">
+    </div>
+    <p><a href="research/plant-mechanosensing.html">→ Detailed project page</a></p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Future Research Goals</h2>
+  <div class="card">
+    <p>
+      My long-term goal is to pursue a PhD in biophysics or biological physics, focusing on how
+      mechanical forces, fluctuations, and collective dynamics govern cellular and multicellular
+      organization. I am particularly interested in combining advanced microscopy with theory and
+      computation to bridge molecular-scale interactions with emergent biological behavior.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:dm23ms217@iiserkol.ac.in">dm23ms217@iiserkol.ac.in</a></p>
+    <p>Location: Kalyani, India</p>
+    <p>
+      <a href="#">LinkedIn</a> · <a href="#">GitHub</a> · <a href="#">Download CV</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Debdawipayan Maiti · Academic Research Portfolio
+</footer>
+
+</body>
+</html>
